@@ -17,7 +17,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Hello, World!!!"
+          command: "echo Hello, World!!"
   notify:
     docker:
       - image: 'cimg/base:stable'
